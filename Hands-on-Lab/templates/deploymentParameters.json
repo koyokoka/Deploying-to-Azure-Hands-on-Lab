@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+      "parameters": {
+        "virtualNetworkId": {
+            "value": "<first-value>"
+      },
+        "subnetName": {
+            "value": "Subnet-2"
+      },
+        "virtualMachineName": {
+            "value": "DC-SVR"
+      },
+        "windowsOSVersion": {
+            "Value": "2019-Datacenter"
+      },
+        "virtualMachineSize": {
+            "Value": "Standard_D2s_v3"
+      },
+        "domainToJoin": {
+            "Value": "HANDSON.AZURE"
+      },
+        "domainUsername": {
+            "Value": "domainAdmin"
+      },
+        "domainPassword": {
+            "Value": "Password.1!!"
+      }
+   }
+}
